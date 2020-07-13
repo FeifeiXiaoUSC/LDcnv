@@ -23,9 +23,9 @@ library(modSaRa2)
 library(LDcnv)
 LDcnv_eCN(lrr = example.data.lrr,baf = example.data.baf,map = example.data.map,outname="out")
 ```
-Testing with lrr
+Testing with lrr (The packages have to be load sequentially.)
 ```
-library(modSaRa) (The packages have to be load sequentially.)
+library(modSaRa) 
 library(LDcnv)
 LDcnv_lrr(lrr = example.data.lrr,map = example.data.map,alpha=0.01,outname="out1")
 ```
