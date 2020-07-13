@@ -3,7 +3,7 @@ Install dependent packages "modSaRa" and "modSaRa2"
 ```
 install.packages("devtools")
 library(devtools)
-install_github("FeifeiXiaoUSC/modSaRa",subdir="Package")
+install_github("FeifeiXiaoUSC/modSaRa",subdir="package")
 install_github("FeifeiXiaoUSC/modSaRa2",subdir="Package")
 ```
 Install "LDcnv"
