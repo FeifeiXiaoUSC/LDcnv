@@ -12,6 +12,7 @@ install_github("adamluo12/LDcnv")
 ```
 Load example data
 ```
+library(LDcnv)
 data(example.data.lrr)
 data(example.data.baf)
 data(example.data.map)
