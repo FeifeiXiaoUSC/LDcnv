@@ -18,7 +18,7 @@ install_github("FeifeiXiaoUSC/modSaRa2",subdir="Package")
 ```
 Install "LDcnv"
 ```r
-install_github("adamluo12/LDcnv")
+install_github("FeifeiXiaoUSC/LDcnv")
 ```
 ## Running LDcnv
 LDcnv can take two types of inputs: (i) Log R ratio (LRR) and B Allele Frequency (BAF); (ii) LRR only
