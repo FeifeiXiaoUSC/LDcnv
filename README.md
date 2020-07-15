@@ -75,10 +75,10 @@ LDcnv_lrr(lrr = example.data.lrr,map = example.data.map,alpha=0.01,outname="out1
 ```
 (5) The output file is tab delimited and has 9 columns with rows corresponding to CNV events. The columns include sample names, chromosome, CNV start marker, CNV end marker, CNV start position, CNV end position, CNV length in b, CNV length in markers, CNV status (deletion or duplication).
 ```
-NA12045	1	CN_482241	CN_484341	25583341	25663344	80003	35	del
-NA12045	1	CN_027059	CN_513307	65313984	65324244	10260	13	dup
-NA12045	1	CN_515428	CN_515441	65373150	65382483	9333	16	dup
-NA12045	1	SNP_A-2181454	CN_517824	72750353	72763370	13017	10	del
-NA12045	1	CN_517824	SNP_A-8516738	72763370	72811904	48534	50	dup
+NA12045	     1	CN_482241	CN_484341	25583341	25663344	80003	35	del
+NA12045	     1	CN_027059	CN_513307	65313984	65324244	10260	13	dup
+NA12045	     1	CN_515428	CN_515441	65373150	65382483	9333	16	dup
+NA12045	     1	SNP_A-2181454	CN_517824	72750353	72763370	13017	10	del
+NA12045	     1	CN_517824	SNP_A-8516738	72763370	72811904	48534	50	dup
 ```
 
