@@ -21,7 +21,7 @@ Install "LDcnv"
 install_github("adamluo12/LDcnv")
 ```
 ## Running LDcnv
-LDcnv can take two types of inputs: (i) Log R ratio (LRR) and B Allele Frequency; (ii) LRR only
+LDcnv can take two types of inputs: (i) Log R ratio (LRR) and B Allele Frequency (BAF); (ii) LRR only
 ### Examples
 (1) Load example data
 ```r
