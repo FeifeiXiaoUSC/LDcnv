@@ -56,7 +56,7 @@ data(example.data.map)
 108604 CN_473981   1    52783
 108610 CN_473982   1    52800
 ```
-(2) GC-wave adjustment by PennCNV
+(2) GC-wave adjustment by PennCNV (Wang, et al., 2007)
 ```
 genomic_wave.pl -adjust -gcmodel hh550.gcmodel inputfile
 ```
