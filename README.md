@@ -1,12 +1,12 @@
 # LDcnv
-Correlation-based copy number variation detection by SNP array data
+A correlation integrated copy number variation detection R package with SNP array data
 
 
 ## Author
 Xizhi Luo, Fei Qin, Guoshuai Cai, Feifei Xiao
 
 ## Description
-The detection of copy number variants (CNVs) is identifying mean shift in genetic intensities to locate chromosomal breakpoints. Many segmentation algorithms have been developed with a strong assumption of independent observations in the genetic loci, and they assume each locus has an equal chance to be a breakpoint (i.e., boundary of CNVs). However, this assumption is violated in the genetics perspective due to the existence of correlation among genomic positions such as linkage disequilibrium (LD). To generate more accurate CNVs, we therefore proposed a novel algorithm, LDcnv, that models the CNV data with its biological characteristics relating to genetic correlation (i.e., LD). 
+The detection of copy number variants (CNVs) is identifying mean shift in genetic intensities to locate chromosomal breakpoints. Many segmentation algorithms have been developed with a strong assumption of independent observations in the genetic loci, and they assume each locus has an equal chance to be a breakpoint (i.e., boundary of CNVs). However, this assumption is violated in the genetics perspective due to the existence of correlation among genomic positions such as linkage disequilibrium (LD). To generate more accurate CNVs, we therefore proposed a novel algorithm, LDcnv, that models the CNV data with its biological characteristics relating to genetic correlation (i.e., genetic correlation across genome). 
 
 ## Installation
 Install dependent packages "modSaRa" and "modSaRa2"
